@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Style - Sua Loja de Camisas de Futebol</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body 
+        {
+            background: url('novofundo.png') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+        }
+
+        header 
+        {
+            background: rgba(30, 58, 95, 0.95);
+            padding: 15px;
+            font-size: 24px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        nav 
+        {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+
+        .banner {
+            padding: 150px 20px 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: black;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #333;
+            font-size: 16px;
+        }
+
+        .preço {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .botao_comprar {
+            display: inline-block;
+            background: #1e3a5f;
+            color: white;
+            padding: 10px 20px;
+        }
+        .rodape {
+            background: #1e3a5f;
+            color: white;
+            padding: 75px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futebol Style</h1>
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="Cadastro.html">Cadastro</a>
+            <a href="Login.html">Login</a>
+            <a href="SobreNos.html">Quem Somos</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>A melhor loja de camisetas de futebol!</h1>
+    </div>
+
+    <div class="container">
+        <h2>OFERTAS IMPERDÍVEIS!</h2>
+        <div class="produtos">
+            <div class="product">
+                <img src="camiseta.png">
+                <h2>Camisa Brasil 2002</h2>
+                <p>Modelo retrô da Seleção Brasileira 2022</p>
+                <p class="preço">De R$ 99,90 por R$ 79,90</p>
+                <p><strong> (Oferta válida somente para CPF cadastrado) </strong></p>
+                <a href="#" class="botao_comprar">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="camisetaAngola.png">
+                <h2>Camisa Angola</h2>
+                <p>Camiseta com bandeira nacional de Angola</p>
+                <p class="preço">De R$ 99,90 por R$ 79,90</p>
+                <p><strong> (Oferta válida somente para CPF cadastrado) </strong></p>
+                <a href="#" class="botao_comprar">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="palmeiras.png">
+                <h2>Camisa Palmeiras</h2>
+                <p>Camisa Palmeiras Verde Torcedor Masculina 2024/2025</p>
+                <p class="preço">De R$ 99,90 por R$ 79,90</p>
+                <p><strong> (Oferta válida somente para CPF cadastrado) </strong></p>
+                <a href="#" class="botao_comprar">Comprar Agora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>&copy; 2025 Futebol Style - Todos os direitos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
